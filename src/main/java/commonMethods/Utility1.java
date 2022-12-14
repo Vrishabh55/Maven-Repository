@@ -22,6 +22,12 @@ public class Utility1
 	{
 
 		Properties prop=new Properties();
+		
+		
+		
+		
+		
+		
 		FileInputStream stream=new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\ProjectName\\mavenProp");
 		prop.load(stream);
 		String Skey = prop.getProperty(key);
