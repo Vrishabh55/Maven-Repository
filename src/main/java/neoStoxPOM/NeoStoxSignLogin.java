@@ -26,6 +26,9 @@ public class NeoStoxSignLogin
 	}
 	public void clickOnSignInButton(WebDriver driver)
 	{
+		
+		
+		
 		Utility1.wait(driver, 1000);
 		signInButton.click();
 		Reporter.log("clicking on sign in Button", true);
