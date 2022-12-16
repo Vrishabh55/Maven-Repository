@@ -28,5 +28,5 @@ public class NeoStoxPasswordPage
 	Utility1.wait(driver, 1000);
 	submitButton.click();
 	Reporter.log("Clicking on submit button", true);
-
+System.out.println("running successfully");
 }}
