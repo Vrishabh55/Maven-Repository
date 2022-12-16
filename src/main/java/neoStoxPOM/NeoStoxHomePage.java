@@ -31,6 +31,8 @@ public class NeoStoxHomePage
 	closeButton.click();
 	Reporter.log("Handeling popup..",true);
 	}
+	
+	
 	public String getUserName()
 	{
 	String actualUserName = userName.getText();
